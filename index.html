@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<img src="0hunger-logo.png" alt="0Hunger Logo" class="logo">
+        <button id="customNextButton"><b>Let's Feed now!</b></button>
+    </div>
+    <script>
+        // Get the button element
+        const customNextButton = document.getElementById('customNextButton');
+
+        // Add event listener to handle button click
+        customNextButton.addEventListener('click', function() {
+            // Redirect to loc.html
+            window.location.href = 'loc.html';
+        });
+    </script>
+</body>
+</html>

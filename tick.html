@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tick Mark</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: #FDBF50;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            font-family: Arial, sans-serif;
+        }
+
+        .tick {
+            font-size: 125px;
+            color: green;
+        }
+
+        .text {
+            font-size: 15px;
+            margin-top: 20px;
+            text-align: center;
+            color: grey;
+        }
+        .Thanks{
+            font-size: 24px;
+            color: green;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div id="tickMark" class="tick">&#10004;</div>
+    <div id="fduInfo">
+        <h2>FDU Information</h2>
+        <p id="address"></p>
+        <p id="timing"></p>
+    </div>
+
+    <script src="tick.js"></script>
+    
+        
+</body>
+</html>

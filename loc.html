@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>0Hunger-Enter Details</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            background-color: #FDBF50;
+        }
+    </style>
+</head>
+<body>
+    <div class="container2">
+        <div class="image-container">
+            <img src="0hunger-favicon-color.png" alt="Image" class="image2">
+            <div class="rectangle"></div>
+        </div>
+        <b class="location-text">Location</b>
+    </div>  
+    <div class="input-container">
+        <input type="text" class="location-input" placeholder="Enter city">
+    </div>
+    <div class="container">
+        <button id="customNextButton"><b>Let's Feed now!</b></button>
+    </div>
+    <div class="container3">
+        <img src="r.png" alt="Your Image" class="img1">
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get the next button element
+            const customNextButton = document.getElementById('customNextButton');
+            // Add event listener to handle button click
+            customNextButton.addEventListener('click', function() {
+                // Get the value of the input box
+                const inputLocation = document.querySelector('.location-input').value.toLowerCase();
+
+                // Check if the input location is Mumbai
+                if (inputLocation === 'mumbai') {
+                    // Redirect to Mumbai.html
+                    window.location.href = 'Mumbai.html';
+                } else if (inputLocation === 'hyderabad') {
+                    // Redirect to page3.html
+                    window.location.href = 'page3.html';
+                } else {
+                    // Handle other locations or errors here
+                    alert('Location not supported!');
+                }
+            });
+        });
+    </script>
+
+ 
+        
+</body>
+</html>
