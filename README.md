@@ -1,1 +1,2 @@
 # 0Hunger
+When the 0Hunger website opens, the user has to click on the Let’s Feed Now! button and enter their city. After entering the city and clicking on the Let’s Feed Now! button, a list of food distribution units as displayed that are within the city. When user selects any of the food distribution units listed, a confirmation screen is displayed with the peek time and address of that food distribution unit.
