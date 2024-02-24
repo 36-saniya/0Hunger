@@ -138,7 +138,9 @@ h2, h3 {
     .logo {
       width: 60%; /* Adjust logo size for mobile */
     }
-  
+    .product-list{
+      scale:.5;
+    }
     #customNextButton {
       width: 100px; /* Adjust button width for mobile */
       font-size: 12px; /* Adjust font size for mobile */
